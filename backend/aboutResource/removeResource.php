@@ -25,8 +25,8 @@ $resource_id = test_input(mysqli_escape_string($conn, $_POST['resource_id']));
 
 $query_result = mysqli_query($conn, "select path FROM resource WHERE resrc_id = '$resource_id';");
 if($fetched = mysqli_fetch_array($query_result)){
-    $accessKey='ZIdM50EJH3PqLE1FMeslyAyAf3BNC2nq3VpC3TFp';
-    $secretKey='RIPOY78DZ-EcwVahqBQLMPXd6crMEK5i5iKTXZxd';
+    $accessKey='zzzzzzzzzzzzzzzzzzz';
+    $secretKey='zzzzzzzzzzzzzzzzzzz'
 
     $auth=new Auth($accessKey,$secretKey);
     $bucketMgr=new BucketManager($auth);
