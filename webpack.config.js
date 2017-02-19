@@ -1,6 +1,6 @@
 var webpack=require("webpack");
 var HtmlWebpackPlugin=require("html-webpack-plugin");
-var debug=false;         //debug switch
+var debug=true;         //debug switch
 
 module.exports={
     entry: {

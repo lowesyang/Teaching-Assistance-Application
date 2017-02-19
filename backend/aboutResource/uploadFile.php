@@ -10,8 +10,8 @@ require_once '../qiniu/autoload.php';
 use Qiniu\Auth;
 use Qiniu\Storage\UploadManager;
 
-$accessKey='xxxxxxxxxxxxxxxx';
-$secretKey='xxxxxxxxxxxxxxxx';
+$accessKey='ZIdM50EJH3PqLE1FMeslyAyAf3BNC2nq3VpC3TFp';
+$secretKey='RIPOY78DZ-EcwVahqBQLMPXd6crMEK5i5iKTXZxd';
 
 $auth=new Auth($accessKey,$secretKey);      //构建鉴权对象
 $bucket='course-assist';                    //要上传的空间
